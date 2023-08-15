@@ -1,17 +1,16 @@
 /**
- * @name purpled
- * @version 1.0.6.3
- * @description A theme based on Google's Material Design
- * @author CapnKitten
- * @website http://github.com/CapnKitten
- * @source https://github.com/CapnKitten/BetterDiscord/blob/master/Themes/Material-Discord/css/source.css
+ * @name Purpled
+ * @version 1.0
+ * @description A theme based on "Google's Material" edited to be purple!
+ * @author Choco
+ * @website https://github.com/ChocoMilc/ChocoThemesRepo/
+ * @source https://github.com/ChocoMilc/ChocoThemesRepo/blob/main/purpled.theme.css
 */
 
 @import url('https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/source.css');
 @import url('https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css');
 @import url('https://nyri4.github.io/Discolored/main.css');
 @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css');
-@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
 @import url('https://nyri4.github.io/Discolored/main.css');
 
 :root {
@@ -34,21 +33,7 @@
   --columns: 2.2;
   --guildgap: 5;
   --aligndms: 0;
-  --rs-small-spacing: 0px;
-  --rs-medium-spacing: 0px;
-  --rs-large-spacing: 0px;
-  --rs-small-width: 5px;
-  --rs-medium-width: 5px;
-  --rs-large-width: 5px;
-  --rs-avatar-shape: 50%;
-  --rs-online-color: #8950ED;
-  --rs-idle-color: #624E86;
-  --rs-dnd-color: #490692;
-  --rs-offline-color: #EACAFF;
-  --rs-streaming-color: #3F51B5;
-  --rs-phone-visible: block;
 }
 
 /* Any custom CSS below here */
-
 
