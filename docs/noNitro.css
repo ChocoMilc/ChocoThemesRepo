@@ -1,0 +1,52 @@
+*Hide things*/
+.header-1aIywd,
+.scrollerBase-1Pkza4.auto-2TJ1RH.scroller-3u_s5m,
+.innerWrapper-MqFL7z,
+#guild-header-popout-premium-subscribe,
+div.separator-12G2Op:nth-of-type(2),
+li.container-32HW5s.channel-1Shao0:nth-of-type(2),
+.buttons-uaqb-5 > .grow-2T4nbg.colorBrand-2M3O3N.lookBlank-FgPMy6.button-ejjZWC,
+.themed-qqoYp3.item-2GWPIy.premiumTab-39eQzY,
+.premiumSubscribeButton-y-hQLb.grow-2T4nbg.sizeMedium-2oH5mg.colorGreen-jIPCAS.lookFilled-1H2Jvj.button-ejjZWC.shinyButton-2Q9MDB,
+.premiumPerksListTitle-BKwVH2.text-sm-normal-AEQz4v.defaultColor-1EVLSt,
+div.customizationSection-3oEBvF.customizationSection-IGy2fS:nth-of-type(4),
+div.customizationSection-3oEBvF.customizationSection-IGy2fS:nth-of-type(3),
+.tryItOutLayout-2ypO8Z.baseLayout-1_9QRm > .preview-sMYs9f.customizationSection-IGy2fS > .title-1HgbhV.eyebrow-2wJAoF.h5-2feg8J,
+.description-2IR91J.text-sm-normal-AEQz4v.defaultColor-1EVLSt,
+div.optionBox-1UOevl:nth-of-type(2),
+.imageUploaderHint-33zkjZ,
+a.anchorUnderlineOnHover-wiZFZ_.anchor-1X4H4q:nth-of-type(3),
+.grow-2T4nbg.sizeMedium-2oH5mg.colorGreen-jIPCAS.lookFilled-1H2Jvj.button-ejjZWC.shinyButton-2Q9MDB,
+.headings-1UkJbq,
+.upsellOverlayContainer-3NMgTS,
+.icon-3FU6Ir,
+.tier0Container-3pQqp9,
+.wrapper-2-Da9H,
+.divider-2UxUgG {
+    transform: scale(0) !important;
+    display: none !important;
+}
+
+.defaultColor-1GKx81.heading-xl-extrabold-3nqyla.defaultColor-1GKx81.heading-xl-extrabold-3nqyla.defaultColor-1EVLSt {
+    visibility: hidden !important;
+    display: block !important;
+    font-size:0px;
+}
+
+.defaultColor-1GKx81.heading-xl-extrabold-3nqyla.defaultColor-1GKx81.heading-xl-extrabold-3nqyla.defaultColor-1EVLSt::after{
+    visibility: visible !important;
+    left: 50% !important;
+    content: "Nitro test menu:\0000A";
+    white-space: pre !important;
+    font-size: 30px !important;
+}
+
+
+/*Remove click events from classes*/
+.containerWithMargin-1CVXAM.container-2giAcK,
+.premiumCta-1YC_hj.grow-2T4nbg.sizeMedium-2oH5mg.colorGreen-jIPCAS.lookFilled-1H2Jvj.button-ejjZWC.shinyButton-2Q9MDB,
+.premiumSubscribeButton-y-hQLb.grow-2T4nbg.sizeMedium-2oH5mg.colorGreen-jIPCAS.lookFilled-1H2Jvj.button-ejjZWC.shinyButton-2Q9MDB,
+.banner-3D8GgT.bannerUploaderInnerSquare-2c2J8_.imageUploaderInner-IIRaFr > .imageUploaderFileInput-18YkLC,
+.bannerNitroUpsell-2iP18z {
+  pointer-events: none;
+}
