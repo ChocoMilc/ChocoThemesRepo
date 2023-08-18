@@ -17,7 +17,7 @@
 #user-settings-cog-Library_Inventory,
 [aria-controls="Connections-tab"] + .separator-gCa7yv,
 [aria-controls="Connections-tab"] + .separator-gCa7yv + .header-2RyJ0Y {
-    display: none !important;
+    display: block !important;
 }
 
 #guild-header-popout .separator-2I32lJ ~ .separator-2I32lJ {
