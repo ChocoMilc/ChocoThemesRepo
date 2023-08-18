@@ -1,4 +1,4 @@
-span.roleColor-rz2vM0::after {
+.span.roleColor-rz2vM0::after {
     content: "";
     background: currentColor;
     width: 100%;
@@ -8,4 +8,4 @@ span.roleColor-rz2vM0::after {
     left: 0;
     top: 0;
 }
-#private-channels [href="/store"] {display: none}
+#private-channels [href="/store";] {display: none;}
