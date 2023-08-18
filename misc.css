@@ -8,6 +8,9 @@
     left: 0;
     top: 0;
 }
-.link-39sEB3 {
+
+li.container-32HW5s.channel-1Shao0:nth-of-type(2) {
     transform: scale(0) !important;
+    display: none !important;
 }
+
