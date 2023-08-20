@@ -1,5 +1,9 @@
-# ChocoThemesRepo
-## Uhhh its just a repository of all of my themes (Some are just mods of existing themes)
-## Feel free to use these!
+# Choco's themes repository
 
-**NO REALLY PLEASE I *LOVE* PUBLICITY**
+I have recently begun learning CSS!
+My themes are now made by me!
+
+
+# THEME LIST:
+
+* No Nitro
