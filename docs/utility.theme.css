@@ -18,10 +18,10 @@
 @import url("https://nyri4.github.io/Discolored/support/discolored.theme.css"); /* Colors the default discord icons. */
 
 :root {
-	--columns:			2;	
-	--guildsize:		40;
-	--guildgap:			5;	
-	--aligndms:			1;
+	--columns:			2 !important;
+	--guildsize:			40 !important;
+	--guildgap:			5 !important;
+	--aligndms:			1 !important;
 }
 
 /* Displays settings as a thread-like overlay on right side of main window */
