@@ -1,0 +1,60 @@
+/**
+ * @name Utility
+ * @description A theme made to make discord nicer.
+ * @author Choco
+ * @version 1.0
+ * @authorId 798673042988335144
+ * @website https://github.com/ChocoMilc/
+ * @source https://github.com/ChocoMilc/ChocoThemesRepo/tree/main/docs/utility.theme.css
+ * @updateUrl https://chocomilc.github.io/ChocoThemesRepo/utility.theme.css
+ */
+
+@import url("https://minidiscordthemes.github.io/Snippets/SplitMessageBars/SplitMessageBars.css");
+@import url("https://minidiscordthemes.github.io/Snippets/EfficientSettings/EfficientSettings.css");
+@import url("https://minidiscordthemes.github.io/Snippets/ModeIndicator/ModeIndicator.css");
+@import url("https://minidiscordthemes.github.io/Snippets/MinimalAddonCards/MinimalAddonCards.css");
+@import url("https://chocomilc.github.io/ChocoThemesRepo/noNitro.css"); /* Removes Nitro. */
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css"); /* Shrinks server icons and makes servers more compact, allowing you to change servers quick. */
+@import url("https://nyri4.github.io/Discolored/support/discolored.theme.css"); /* Colors the default discord icons. */
+
+:root {
+	--columns:			2;	
+	--guildsize:		40;
+	--guildgap:			5;	
+	--aligndms:			1;
+}
+
+/* Displays settings as a thread-like overlay on right side of main window */
+.baseLayer-W6S8cY.stop-animations {
+    opacity: 0.5 !important;
+    transform: scale(1) !important;
+    border-radius: 12px !important;
+}
+
+.scrollerBase-1Pkza4.auto-2TJ1RH.contentRegionShownSidebar-fHXkEg.contentRegionScroller-2_GT_N {
+    justify-content: center !important;
+    border-radius: 12px !important;
+    left: auto !important;
+}
+
+.standardSidebarView-E9Pc3j {
+    flex-direction: row !important;
+    left: unset !important;
+    pointer-events: auto !important;
+    box-shadow: 1 !important;
+    opacity: 0.95 !important;
+    transform: scale(0.75) !important;
+    border-radius: 12px !important;
+}
+
+.sidebarRegionScroller-FXiQOh,
+.sidebarRegion-1VBisG,
+.contentRegion-3HkfJJ {
+
+    box-shadow: 5 !important;
+    opacity: 0.95 !important;
+    border-radius: 12px !important;
+}
+
+body{background-color: transparent !important;}
+#app-mount{border-radius: 12px !important;} /* Default "12px" - Higher = More Round */
